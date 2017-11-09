@@ -1,0 +1,10 @@
+{
+"name": "divxatopeRedir",
+"hostprefix": "divxatope.com",
+"displayname": "DIVXaTope",
+"version": "1.0.1",
+"authentication": "no",
+"module": "SynoFileHostingDivxatope.php",
+"class": "modules\\divxatope\\host\\SynoFileHostingDivxatope",
+"description": "Descargas Gratis de DivX, PSP, P2P, Torrents, Torrent y BitTorrent. Hecho por Luskaner" 
+}
