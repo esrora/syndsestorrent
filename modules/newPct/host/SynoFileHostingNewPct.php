@@ -23,9 +23,6 @@ class SynoFileHostingNewPct
 {
     private $url;
 
-    const QUERY_URL = 'https://de-free-proxy.cyberghostvpn.com/go/browse.php?u=%s&b=7&f=norefer';
-    const HOST_PROXY = 'https://de-free-proxy.cyberghostvpn.com';
-
     /**
      *
      * @param string $Url      URL a descargar (no el fichero directo)
@@ -66,16 +63,16 @@ class SynoFileHostingNewPct
     {
         $ret = '';
         if (strstr($this->url, 'newpct1.com') === false) {
-            curl_setopt($curl, CURLOPT_URL, sprintf(SynoFileHostingNewPct::QUERY_URL, urlencode($this->url)));
+            curl_setopt($curl, CURLOPT_URL, $this->url);
             $res = curl_exec($curl);
             $resultadoRegex = array();
             if (preg_match(
-                '/<span.*id=\'content-torrent\'.*>.*<a.*href=\'(.*tumejor.*)\'/siU',
+                '/window.location.href = \"(.*tumejor.*)\"/siU',
                 $res,
                 $resultadoRegex
             )
             ) {
-                $ret = SynoFileHostingNewPct::HOST_PROXY . $resultadoRegex[1];
+                $ret = $resultadoRegex[1];
             }
         }
 
