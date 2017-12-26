@@ -2,9 +2,9 @@
 "name": "newPctAuth",
 "hostprefix": "newpct.com",
 "displayname": "NewPCT",
-"version": "1.2.13",
+"version": "1.2.14",
 "authentication": "no",
 "module": "SynoFileHostingNewPct.php",
 "class": "modules\\newPct\\host\\SynoFileHostingNewPct",
-"description": "Sitio de Torrents muy popular en España, anteriormente PcTorrent. Hecho por Luskaner" 
+"description": "Sitio de Torrents muy popular en España, anteriormente PcTorrent. Hecho por Luskaner. Modificado por esrora." 
 }

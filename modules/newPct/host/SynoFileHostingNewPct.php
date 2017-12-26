@@ -67,7 +67,7 @@ class SynoFileHostingNewPct
             $res = curl_exec($curl);
             $resultadoRegex = array();
             if (preg_match(
-                '/window.location.href = \"(.*tumejor.*)\"/siU',
+                '/window.location.href = \"(.*newpct.com.*)\"/siU',
                 $res,
                 $resultadoRegex
             )
