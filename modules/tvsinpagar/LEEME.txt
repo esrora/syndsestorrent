@@ -1,0 +1,24 @@
+﻿CÓMO INSTALAR
+-------------
+
+1. Descomprimir el fichero zip
+2. Iniciar Download Station
+3. Ir a la configuración (engranaje)
+4. Ir a Búsqueda en BT
+5. Agregar -> seleccionamos TVSinPagar.dlm -> Agregar
+6. Ir a Alojamiento de archivos
+7. Agregar -> seleccionamos TVSinPagar.host -> Agregar
+8. Ir a Canales RSS
+9. Hacer clic en el símbolo +
+10. En "Escribir URL de RSS" introducimos: http://feeds.feedburner.com/tvsinpagar
+
+DESCARGA AUTOMÁTICA
+-------------------
+
+1. Ir a Filtro de descarga -> Agregar
+2. En coincidencias agregamos, por ejemplo:
+    *lo_que_queramos_buscar*
+    *primera_parte*segunda_parte*
+
+CAMBIOS
+-------

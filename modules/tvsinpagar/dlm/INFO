@@ -1,0 +1,10 @@
+{
+"name": "tvsinpagar",
+"displayname": "TVsinpagar",
+"description": "Sitio de Torrents muy popular en España, anteriormente PcTorrent y NewPct. Hecho por viccor.Basado en el codigo de Luskaner",
+"version": "1.0.0",
+"site": "http://www.tvsinpagar.com",
+"module": "SynoDLMSearchTVsinpagar.php",
+"type": "search",
+"class": "modules\\tvsinpagar\\dlm\\SynoDLMSearchTVsinpagar"
+}
