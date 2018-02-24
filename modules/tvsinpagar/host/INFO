@@ -1,0 +1,10 @@
+{
+"name": "TVSinPagar",
+"hostprefix": "tvsinpagar.com",
+"displayname": "TVSinPagar",
+"version": "1.0.0",
+"authentication": "no",
+"module": "SynoFileHostingTVSinPagar.php",
+"class": "modules\\TVSinPagar\\host\\SynoFileHostingTVSinPagar",
+"description": "Sitio que sustituye a Newpct. Realizado por viccor. Basado en en proyecto SynDsEsTorrent de Luskaner" 
+}
