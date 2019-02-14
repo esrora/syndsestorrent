@@ -62,7 +62,7 @@ class SynoFileHostingDescargas2020
 
     private function getTorrentUrlDescargas2020($curl)
     {
-        $result = '';
+        $result = $this->url;
 
         
         $dlPage = curl_exec($curl);
@@ -70,6 +70,9 @@ class SynoFileHostingDescargas2020
         $matchesUrl = array();
         if (preg_match($regexpUrl, $dlPage, $matchesUrl)) {
             $result = $matchesUrl[1];
+            if (substr( $result, 0, 4 ) !== "http")	{
+            	$result = "http:" . $result;
+            }
         } 
         
         return $result;

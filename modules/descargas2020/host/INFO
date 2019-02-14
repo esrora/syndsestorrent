@@ -2,9 +2,9 @@
 "name": "descargas2020Auth",
 "hostprefix": "descargas2020.com",
 "displayname": "Descargas2020",
-"version": "1.0.0",
+"version": "1.1.0",
 "authentication": "no",
 "module": "SynoFileHostingDescargas2020.php",
 "class": "modules\\descargas2020\\host\\SynoFileHostingDescargas2020",
-"description": "Sitio que sustituye a Newpct1. Realizado por viccor. Basado en en proyecto SynDsEsTorrent de Luskaner" 
+"description": "Descargas2020 Host. Realizado por viccor. Basado en en proyecto SynDsEsTorrent de Luskaner" 
 }
