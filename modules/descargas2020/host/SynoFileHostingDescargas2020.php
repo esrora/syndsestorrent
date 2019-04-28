@@ -66,12 +66,12 @@ class SynoFileHostingDescargas2020
 
         
         $dlPage = curl_exec($curl);
-        $regexpUrl = '/window.location.href = "(.*?)";/';
+        $regexpUrl = '/var dl="\/\/(.*?)"/';
         $matchesUrl = array();
         if (preg_match($regexpUrl, $dlPage, $matchesUrl)) {
             $result = $matchesUrl[1];
             if (substr( $result, 0, 4 ) !== "http")	{
-            	$result = "http:" . $result;
+            	$result = "http://" . $result;
             }
         } 
         
