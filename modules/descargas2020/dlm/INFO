@@ -3,7 +3,7 @@
 "displayname": "Descargas2020",
 "description": "Sitio de Torrents muy popular en España, anteriormente PcTorrent y NewPct1. Hecho por viccor.Basado en el codigo de Luskaner",
 "version": "1.0.0",
-"site": "http://descargas2020.com",
+"site": "http://descargas2020.org",
 "module": "SynoDLMSearchDescargas2020.php",
 "type": "search",
 "class": "modules\\descargas2020\\dlm\\SynoDLMSearchDescargas2020"

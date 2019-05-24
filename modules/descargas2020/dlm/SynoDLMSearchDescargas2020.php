@@ -21,8 +21,8 @@ namespace modules\descargas2020\dlm;
 
 class SynoDLMSearchDescargas2020
 {
-    private $qurl = 'http://descargas2020.com/index.php?page=buscar&q=%s&categoryIDR=%s&idioma=%s&pg=%u';
-    private $purl = 'http://descargas2020.com/';
+    private $qurl = 'http://descargas2020.org/index.php?page=buscar&q=%s&categoryIDR=%s&idioma=%s&pg=%u';
+    private $purl = 'http://descargas2020.org/';
     private $query = '';
     private $cat = '';
     private $lang = '';

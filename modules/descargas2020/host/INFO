@@ -1,8 +1,8 @@
 {
 "name": "descargas2020Auth",
-"hostprefix": "descargas2020.com",
+"hostprefix": "descargas2020.org",
 "displayname": "Descargas2020",
-"version": "1.2.0",
+"version": "2.0.0",
 "authentication": "no",
 "module": "SynoFileHostingDescargas2020.php",
 "class": "modules\\descargas2020\\host\\SynoFileHostingDescargas2020",
