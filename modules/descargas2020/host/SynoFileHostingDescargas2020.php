@@ -54,24 +54,24 @@ class SynoFileHostingDescargas2020
         curl_setopt($curl, CURLOPT_HEADER, true);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($curl, CURLOPT_URL, $this->url);
+
         $result[DOWNLOAD_URL] = $this->getTorrentUrlDescargas2020($curl);        
+
         return $result;
     }
 
     private function getTorrentUrlDescargas2020($curl)
     {
-       $result = $this->url;
+        $result = '';
+
         
         $dlPage = curl_exec($curl);
         $regexpUrl = '/window.location.href = "(.*?)";/';
         $matchesUrl = array();
         if (preg_match($regexpUrl, $dlPage, $matchesUrl)) {
             $result = $matchesUrl[1];
-            if (substr( $result, 0, 4 ) !== "http") {
-                $result = "http:" . $result;
-            }
         } 
         
-        return $result;
+        return 'http:'.$result;
     }
 }
